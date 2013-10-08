@@ -1,0 +1,30 @@
+ssh-add ~/.ssh/id_rsa_github
+  475  git username
+  476  git --help
+  477  git pull
+  478  git commit -m'title change'
+  479  git push origin master
+  480  cd ..
+  481  rm -fr teachersInSpace/
+  482  cd agileworkshop/
+  483  ls
+  484  git clone git@github.com:agilejs/teachersInSpace.git
+  485  cd teachersInSpace/
+  486  npm install
+  487  grunt travis
+  488  grunt dev
+  489  bg
+  490  emacs client/index.html 
+  491  bg
+  492  git commit -m'changed title' 
+  493  git push origin master
+  494  git commit -a -m'changed title' 
+  495  git push origin master
+  496  git pull
+  497  git commit -a -m'changed title' 
+  498  git push origin master
+  499  cd ..
+  500  rm -fr teachersInSpace/
+  501  cd agileworkshop/
+  502  ls
+  503  history
