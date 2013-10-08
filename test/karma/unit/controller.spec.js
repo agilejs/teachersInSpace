@@ -49,4 +49,19 @@ describe('controller', function () {
         });
     });
 
+    describe('WelcomeCtrl', function() {
+        it('should also set a list of movies on scope', function() {
+            var scope = {};
+            var $location = {};
+            var moviesResponse = {
+                data: 42
+            };
+
+            WelcomeCtrl(scope, $location, moviesResponse);
+
+            expect(scope.movies).to.deep.equal(moviesResponse.data);
+            expect(scope.reverse).to.equal(false);
+        });
+    });
+
 });
