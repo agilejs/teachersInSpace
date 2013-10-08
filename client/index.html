@@ -13,14 +13,20 @@
             <div class="container">
                 <a class="brand" href="/">Movie Databasetest</a>
                 <ul class="nav">
-                    <li class="active">
-                        <a href="/">Home</a>
+                    <li class={{homeActive}}>
+                        <a href="/" ng-click="homeActive = 'active';
+                                              moviesActive = '';
+                                              actorsActive = '';">Home</a>
                     </li>
-                    <li>
-                        <a href="/movies">Movies</a>
+                    <li class={{moviesActive}}>
+                        <a href="/movies" ng-click="homeActive = '';
+                                                    moviesActive = 'active';
+                                                    actorsActive = '';">Movies</a>
                     </li>
-                    <li>
-                        <a href="/actors">Actors</a>
+                    <li class={{actorsActive}}>
+                        <a href="/actors" ng-click="homeActive = '';
+                                                    moviesActive = '';
+                                                    actorsActive = 'active';">Actors</a>
                     </li>
                 </ul>
                 <div class="navbar-search pull-right">

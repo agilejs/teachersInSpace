@@ -1,6 +1,9 @@
 function AppCtrl ($scope) {
     'use strict';
     $scope.title = 'The Movie Database';
+    $scope.homeActive = 'active';
+    $scope.moviesActive = '';
+    $scope.actorsActive = '';
 }
 
 function setupScopeMovieList ($scope, moviesResponse) {
