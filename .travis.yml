@@ -21,8 +21,8 @@ before_script:
 # more information on automatic deployment to heroku
 deploy:
   provider: heroku
-  app: movie-database-node
+  app: agilejs-teachersinspace
   api_key:
-    secure: ! 'VM4D68593b50AlKIJLnBJjukmf6XzR0lX8t/GBT8JBklxnXQKHUcfwNjE9jf
-      mra/rYws45pRyWjJzITPHScTtmK82bcj+5FCoB4sjEvOqAKWAcFPSbK+oJ/g
-      P3UPGArmHC73gZ/YFoD6TCzRJDLOYCekaiscPEQr9Bs9cwXCRp0='
+  - secure: ! 'nsLIGmFevE3Qofygc6pPqu6e92U6Y7C1guQpDe9AokDKoAcWBPqQryzAFWjL
+      6M8ssNOar+OiGti/YVSzXzVaptVNsgP11LaKUnlMywMQXVR/PKkzth0PifLz
+      EwJp7CxDtvR/+vYEbHQthBfvlhvvHYmMWjbClC7R6ykCGA4BI9M='
